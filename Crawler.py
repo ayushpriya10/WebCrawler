@@ -8,7 +8,7 @@ def extractData(data, pattern):
     extracted = list(noRepeatData)
     return extracted
 
-initialiser = input("Please enter the initial website: ")
+initialiser = 'http://www.ram.org/ramblings/philosophy/spam/spammers.html'
 
 initialLink = urllib.request.urlopen(initialiser)
 
