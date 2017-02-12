@@ -14,7 +14,6 @@ initialLink = urllib.request.urlopen(initialiser)
 
 #Patterns
 linkPattern = re.compile(r'http[s]*\://[www\.]?\w+\.\w+[\.\w+]*[/\w[\.\w]*]*')
-
 emailPattern = re.compile(r'\w+@\w+\.\w+[\.\w]*')
 
 crudeData = str(initialLink.read())
