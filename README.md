@@ -1,3 +1,3 @@
 # WebCrawler
       
-This is a web crawler. It crawls the web from page to page and retrieves email IDs.
+This is a web crawler which crawls from page to page on websites.
